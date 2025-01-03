@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #d7c6b7;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    height: 100vh;
+    padding: 20px;
+    color: #fff;
+    background-color: #4d4d4d;
+    box-shadow: 0 0 10px 0 #333;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+
+.colorSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 80px;
+    gap: 20px;
+}
+
+.colors {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px 0 #333;
+    background-color: #d7c6b7;
+    color: #333;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    line-height: 1.1;
+}
+
+.color {
+    height: 100%;
+    width: 20px;
+    background-color: #fff;
+    border-radius: 3px 0 0 3px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+.gold {
+    background-color: gold;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+.pink {
+    background-color: pink;
+}
+.orange {
+    background-color: orange;
+}
+.purple {
+    background-color: purple;
+}
+.black {
+    background-color: black;
+}
