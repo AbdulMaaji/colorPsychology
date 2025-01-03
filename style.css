@@ -84,3 +84,9 @@ header {
 .black {
     background-color: black;
 }
+
+@media screen and (max-width: 580px) {
+    .colorSection {
+        grid-template-columns: 1fr;
+    }
+}
